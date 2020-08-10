@@ -6,7 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="designpattern" />
+        <module name="factorymethodcommon" />
+        <module name="factorymethodgeneral" />
+        <module name="factorymethodright" />
       </profile>
     </annotationProcessing>
   </component>
