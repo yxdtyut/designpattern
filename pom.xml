@@ -12,6 +12,9 @@
     <module>factory.method.common</module>
     <module>factory.method.general</module>
       <module>factory.method.right</module>
+      <module>abstract.factory.common</module>
+      <module>abstract.factory.general</module>
+      <module>abstract.factory.right</module>
   </modules>
 
   <name>designpattern</name>

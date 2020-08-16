@@ -2,38 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97c0a0f0-3929-4b68-8658-7a1d6854125b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory.method.common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory.method.common/src/main/java/com/yxd/card/IQiYiCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory.method.common/src/main/java/com/yxd/card/IQiYiCardService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory.method.common/src/main/java/com/yxd/coupon/CouponInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory.method.common/src/main/java/com/yxd/coupon/CouponResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory.method.common/src/main/java/com/yxd/coupon/CouponService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory.method.common/src/main/java/com/yxd/goods/DeliverReq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory.method.common/src/main/java/com/yxd/goods/GoodsInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory.method.common/src/main/java/com/yxd/goods/GoodsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory.method.general/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory.method.general/src/main/java/com/yxd/entity/AwardReq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory.method.general/src/main/java/com/yxd/entity/AwardRes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory.method.general/src/main/java/com/yxd/entity/PrizeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory.method.general/src/test/java/com/yxd/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory.method.right/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory.method.right/src/main/java/com/yxd/StoreFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory.method.right/src/main/java/com/yxd/store/ICommodity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory.method.right/src/main/java/com/yxd/store/impl/CardCommodityService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory.method.right/src/main/java/com/yxd/store/impl/CouponCommodityService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/factory.method.right/src/main/java/com/yxd/store/impl/GoodsCommodityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abstract.factory.common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abstract.factory.common/src/main/java/com/yxd/CacheService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abstract.factory.common/src/main/java/com/yxd/RedisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abstract.factory.common/src/main/java/com/yxd/cuisine/impl/CacheServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abstract.factory.common/src/main/java/com/yxd/master/EGM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abstract.factory.common/src/main/java/com/yxd/master/IIR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abstract.factory.general/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abstract.factory.general/src/main/java/com/yxd/CacheServiceGeneral.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abstract.factory.general/src/main/java/com/yxd/cuisine/impl/CacheServiceGeneralImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abstract.factory.general/src/test/java/com/yxd/cuisine/impl/CacheServiceGeneralImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abstract.factory.right/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abstract.factory.right/src/main/java/com/yxd/CacheServiceRight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abstract.factory.right/src/main/java/com/yxd/CglibProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abstract.factory.right/src/main/java/com/yxd/factory/CglibMethodInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abstract.factory.right/src/main/java/com/yxd/factory/ICacheAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abstract.factory.right/src/main/java/com/yxd/factory/JDKInvocationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abstract.factory.right/src/main/java/com/yxd/factory/JDKProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abstract.factory.right/src/main/java/com/yxd/factory/impl/EGMCacheAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abstract.factory.right/src/main/java/com/yxd/factory/impl/IIRCacheAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abstract.factory.right/src/main/java/com/yxd/impl/CacheServiceRightImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abstract.factory.right/src/main/java/com/yxd/util/ClassLoaderUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abstract.factory.right/src/test/java/com/yxd/impl/CacheServiceRightImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yxd/App.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/factory.method.common/target/" />
     <ignored path="$PROJECT_DIR$/factory.method.general/target/" />
     <ignored path="$PROJECT_DIR$/factory.method.right/target/" />
+    <ignored path="$PROJECT_DIR$/abstract.factory.common/target/" />
+    <ignored path="$PROJECT_DIR$/abstract.factory.general/target/" />
+    <ignored path="$PROJECT_DIR$/abstract.factory.right/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,20 +46,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="JDKProxy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/abstract.factory.right/src/main/java/com/yxd/factory/JDKProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/factory.method.right/pom.xml">
+        <entry file="file://$PROJECT_DIR$/abstract.factory.right/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+            <state relative-caret-position="325">
+              <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StoreFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/factory.method.right/src/main/java/com/yxd/StoreFactory.java">
+      <file leaf-file-name="CglibMethodInterceptor.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/abstract.factory.right/src/main/java/com/yxd/factory/CglibMethodInterceptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+            <state relative-caret-position="338">
+              <caret line="24" column="124" selection-start-line="24" selection-start-column="124" selection-end-line="24" selection-end-column="124" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#418#419#0" expanded="true" />
+                <element signature="e#466#467#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClassLoaderUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/abstract.factory.right/src/main/java/com/yxd/util/ClassLoaderUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="537">
+              <caret line="51" column="29" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,43 +93,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/factory.method.right/src/test/java/com/yxd/AppTest.java">
+      <file leaf-file-name="CglibProxy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/abstract.factory.right/src/main/java/com/yxd/CglibProxy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ICommodity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/factory.method.right/src/main/java/com/yxd/store/ICommodity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CardCommodityService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/factory.method.right/src/main/java/com/yxd/store/impl/CardCommodityService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="24" column="57" lean-forward="true" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#835#836#0" expanded="true" />
-                <element signature="e#871#872#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CouponCommodityService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/factory.method.right/src/main/java/com/yxd/store/impl/CouponCommodityService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="617">
-              <caret line="25" column="63" selection-start-line="25" selection-start-column="63" selection-end-line="25" selection-end-column="63" />
+            <state relative-caret-position="313">
+              <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,17 +105,66 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GoodsCommodityService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/factory.method.right/src/main/java/com/yxd/store/impl/GoodsCommodityService.java">
+      <file leaf-file-name="JDKInvocationHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/abstract.factory.right/src/main/java/com/yxd/factory/JDKInvocationHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="767">
-              <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+            <state relative-caret-position="388">
+              <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1485#1486#0" expanded="true" />
-                <element signature="e#1512#1513#0" expanded="true" />
-                <element signature="e#1567#1568#0" expanded="true" />
-                <element signature="e#1603#1604#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ICacheAdapter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/abstract.factory.right/src/main/java/com/yxd/factory/ICacheAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EGMCacheAdapter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/abstract.factory.right/src/main/java/com/yxd/factory/impl/EGMCacheAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="537">
+              <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#338#339#0" expanded="true" />
+                <element signature="e#374#375#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CacheServiceRightImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/abstract.factory.right/src/main/java/com/yxd/impl/CacheServiceRightImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#283#284#0" expanded="true" />
+                <element signature="e#310#311#0" expanded="true" />
+                <element signature="e#609#610#0" expanded="true" />
+                <element signature="e#633#634#0" expanded="true" />
+                <element signature="e#855#856#0" expanded="true" />
+                <element signature="e#886#887#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CacheServiceRightImplTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/abstract.factory.right/src/test/java/com/yxd/impl/CacheServiceRightImplTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -130,6 +176,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="JUnit4 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -160,6 +207,32 @@
         <option value="$PROJECT_DIR$/factory.method.right/src/main/java/com/yxd/StoreFactory.java" />
         <option value="$PROJECT_DIR$/factory.method.right/src/test/java/com/yxd/AppTest.java" />
         <option value="$PROJECT_DIR$/factory.method.right/src/main/java/com/yxd/store/impl/CardCommodityService.java" />
+        <option value="$PROJECT_DIR$/abstract.factory.common/pom.xml" />
+        <option value="$PROJECT_DIR$/abstract.factory.common/src/main/java/com/yxd/RedisUtil.java" />
+        <option value="$PROJECT_DIR$/abstract.factory.common/src/main/java/com/yxd/CacheService.java" />
+        <option value="$PROJECT_DIR$/abstract.factory.common/src/main/java/com/yxd/master/EGM.java" />
+        <option value="$PROJECT_DIR$/abstract.factory.common/src/main/java/com/yxd/master/IIR.java" />
+        <option value="$PROJECT_DIR$/abstract.factory.common/src/main/java/com/yxd/cuisine/impl/CacheServiceImpl.java" />
+        <option value="$PROJECT_DIR$/abstract.factory.general/pom.xml" />
+        <option value="$PROJECT_DIR$/abstract.factory.general/src/main/java/com/yxd/CacheService.java" />
+        <option value="$PROJECT_DIR$/abstract.factory.general/src/main/java/com/yxd/CacheServiceGeneral.java" />
+        <option value="$PROJECT_DIR$/abstract.factory.general/src/test/java/com/yxd/impl/CacheServiceGeneralImplTest.java" />
+        <option value="$PROJECT_DIR$/abstract.factory.general/src/main/java/com/yxd/impl/CacheServiceGeneralImpl.java" />
+        <option value="$PROJECT_DIR$/abstract.factory.general/src/main/java/com/yxd/cuisine/impl/CacheServiceGeneralImpl.java" />
+        <option value="$PROJECT_DIR$/abstract.factory.general/src/test/java/com/yxd/cuisine/impl/CacheServiceGeneralImplTest.java" />
+        <option value="$PROJECT_DIR$/abstract.factory.right/src/main/java/com/yxd/factory/ICacheAdapter.java" />
+        <option value="$PROJECT_DIR$/abstract.factory.right/src/main/java/com/yxd/factory/impl/EGMCacheAdapter.java" />
+        <option value="$PROJECT_DIR$/abstract.factory.right/src/main/java/com/yxd/factory/impl/IIRCacheAdapter.java" />
+        <option value="$PROJECT_DIR$/abstract.factory.right/src/main/java/com/yxd/util/ClassLoaderUtils.java" />
+        <option value="$PROJECT_DIR$/abstract.factory.right/src/main/java/com/yxd/factory/JDKInvocationHandler.java" />
+        <option value="$PROJECT_DIR$/abstract.factory.right/src/main/java/com/yxd/factory/JDKProxy.java" />
+        <option value="$PROJECT_DIR$/abstract.factory.right/src/main/java/com/yxd/CacheServiceRight.java" />
+        <option value="$PROJECT_DIR$/abstract.factory.right/pom.xml" />
+        <option value="$PROJECT_DIR$/abstract.factory.right/src/main/java/com/yxd/CglibMethodInterceptor.java" />
+        <option value="$PROJECT_DIR$/abstract.factory.right/src/main/java/com/yxd/CglibProxy.java" />
+        <option value="$PROJECT_DIR$/abstract.factory.right/src/test/java/com/yxd/impl/CacheServiceRightImplTest.java" />
+        <option value="$PROJECT_DIR$/abstract.factory.right/src/main/java/com/yxd/impl/CacheServiceRightImpl.java" />
+        <option value="$PROJECT_DIR$/abstract.factory.right/src/main/java/com/yxd/factory/CglibMethodInterceptor.java" />
       </list>
     </option>
   </component>
@@ -183,6 +256,17 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="abstract.factory.common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
@@ -200,6 +284,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -211,75 +296,48 @@
             <path>
               <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="factory.method.common" type="462c0819:PsiDirectoryNode" />
+              <item name="abstract.factory.common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="factory.method.common" type="462c0819:PsiDirectoryNode" />
+              <item name="abstract.factory.common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="factory.method.common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="factory.method.common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="factory.method.common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yxd" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="factory.method.common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yxd" type="462c0819:PsiDirectoryNode" />
-              <item name="card" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="factory.method.general" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="factory.method.right" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="factory.method.right" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="factory.method.right" type="462c0819:PsiDirectoryNode" />
+              <item name="abstract.factory.common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="factory.method.right" type="462c0819:PsiDirectoryNode" />
+              <item name="abstract.factory.general" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
+              <item name="abstract.factory.right" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
+              <item name="abstract.factory.right" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
+              <item name="abstract.factory.right" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
+              <item name="abstract.factory.right" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -287,7 +345,7 @@
             <path>
               <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="factory.method.right" type="462c0819:PsiDirectoryNode" />
+              <item name="abstract.factory.right" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -296,47 +354,51 @@
             <path>
               <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="factory.method.right" type="462c0819:PsiDirectoryNode" />
+              <item name="abstract.factory.right" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="yxd" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="factory.method.right" type="462c0819:PsiDirectoryNode" />
+              <item name="abstract.factory.right" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="yxd" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
+              <item name="abstract.factory.right" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
+              <item name="abstract.factory.right" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
+              <item name="abstract.factory.right" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="designpattern" type="462c0819:PsiDirectoryNode" />
               <item name="factory.method.right" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="factory.method.right" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="factory.method.right" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yxd" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
@@ -348,18 +410,28 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.yxd.impl" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -373,7 +445,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AppTest.test_commodity">
+  <component name="RunManager" selected="JUnit.CacheServiceRightImplTest.test_CacheServiceRight">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -381,7 +453,7 @@
       <module name="factorymethodgeneral" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yxd.*" />
+          <option name="PATTERN" value="com.yxd.factory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -404,7 +476,7 @@
       <module name="factorymethodright" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yxd.*" />
+          <option name="PATTERN" value="com.yxd.factory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -413,6 +485,52 @@
       <option name="PACKAGE_NAME" value="com.yxd" />
       <option name="MAIN_CLASS_NAME" value="com.yxd.AppTest" />
       <option name="METHOD_NAME" value="test_commodity" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="CacheServiceGeneralImplTest.test_cacheServiceGeneral" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="abstractfactorygeneral" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yxd.cuisine.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.yxd.cuisine.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.yxd.cuisine.impl.CacheServiceGeneralImplTest" />
+      <option name="METHOD_NAME" value="test_cacheServiceGeneral" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="CacheServiceRightImplTest.test_CacheServiceRight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="abstractfactoryright" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yxd.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.yxd.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.yxd.impl.CacheServiceRightImplTest" />
+      <option name="METHOD_NAME" value="test_CacheServiceRight" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -464,9 +582,13 @@
     <list>
       <item itemvalue="JUnit.AppTest.test_awardToUser" />
       <item itemvalue="JUnit.AppTest.test_commodity" />
+      <item itemvalue="JUnit.CacheServiceGeneralImplTest.test_cacheServiceGeneral" />
+      <item itemvalue="JUnit.CacheServiceRightImplTest.test_CacheServiceRight" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CacheServiceRightImplTest.test_CacheServiceRight" />
+        <item itemvalue="JUnit.CacheServiceGeneralImplTest.test_cacheServiceGeneral" />
         <item itemvalue="JUnit.AppTest.test_commodity" />
         <item itemvalue="JUnit.AppTest.test_awardToUser" />
       </list>
@@ -483,7 +605,9 @@
       <option name="presentableId" value="Default" />
       <updated>1596960646004</updated>
       <workItem from="1596960647428" duration="877000" />
-      <workItem from="1597068574966" duration="4507000" />
+      <workItem from="1597068574966" duration="4616000" />
+      <workItem from="1597157786566" duration="2248000" />
+      <workItem from="1597564774942" duration="5767000" />
     </task>
     <servers />
   </component>
@@ -494,9 +618,33 @@
     <history-entry file="AppTest_test_commodity - 2020.08.10 at 23h 23m 29s.xml">
       <configuration name="AppTest.test_commodity" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AppTest_test_commodity - 2020.08.10 at 23h 24m 49s.xml">
+      <configuration name="AppTest.test_commodity" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CacheServiceGeneralImplTest_test_cacheServiceGeneral - 2020.08.16 at 16h 20m 29s.xml">
+      <configuration name="CacheServiceGeneralImplTest.test_cacheServiceGeneral" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CacheServiceGeneralImplTest_test_cacheServiceGeneral - 2020.08.16 at 16h 20m 50s.xml">
+      <configuration name="CacheServiceGeneralImplTest.test_cacheServiceGeneral" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CacheServiceRightImplTest_test_CacheServiceRight - 2020.08.16 at 20h 27m 35s.xml">
+      <configuration name="CacheServiceRightImplTest.test_CacheServiceRight" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CacheServiceRightImplTest_test_CacheServiceRight - 2020.08.16 at 20h 28m 48s.xml">
+      <configuration name="CacheServiceRightImplTest.test_CacheServiceRight" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CacheServiceRightImplTest_test_CacheServiceRight - 2020.08.16 at 20h 38m 18s.xml">
+      <configuration name="CacheServiceRightImplTest.test_CacheServiceRight" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CacheServiceRightImplTest_test_CacheServiceRight - 2020.08.16 at 20h 38m 43s.xml">
+      <configuration name="CacheServiceRightImplTest.test_CacheServiceRight" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CacheServiceRightImplTest_test_CacheServiceRight - 2020.08.16 at 20h 42m 54s.xml">
+      <configuration name="CacheServiceRightImplTest.test_CacheServiceRight" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5384000" />
+    <option name="totallyTimeSpent" value="13508000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -509,22 +657,22 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32995737" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.7459106" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33151582" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25746268" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3293348" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991276" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -535,10 +683,10 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33151582" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -557,8 +705,8 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.3293348" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3293348" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32995737" />
       <window_info id="Favorites" order="6" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -567,6 +715,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -597,15 +750,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-          <folding>
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-            <element signature="e#455#456#0" expanded="true" />
-            <element signature="e#482#483#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-            <element signature="e#554#555#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -613,34 +757,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
-          <folding>
-            <element signature="e#518#519#0" expanded="true" />
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#597#598#0" expanded="true" />
-            <element signature="e#637#638#0" expanded="true" />
-            <element signature="e#673#674#0" expanded="true" />
-            <element signature="e#705#706#0" expanded="true" />
-            <element signature="e#755#756#0" expanded="true" />
-            <element signature="e#797#798#0" expanded="true" />
-            <element signature="e#827#828#0" expanded="true" />
-            <element signature="e#853#854#0" expanded="true" />
-            <element signature="e#891#892#0" expanded="true" />
-            <element signature="e#921#922#0" expanded="true" />
-            <element signature="e#955#956#0" expanded="true" />
-            <element signature="e#985#986#0" expanded="true" />
-            <element signature="e#1031#1032#0" expanded="true" />
-            <element signature="e#1069#1070#0" expanded="true" />
-            <element signature="e#1113#1114#0" expanded="true" />
-            <element signature="e#1153#1154#0" expanded="true" />
-            <element signature="e#1219#1220#0" expanded="true" />
-            <element signature="e#1277#1278#0" expanded="true" />
-            <element signature="e#1322#1323#0" expanded="true" />
-            <element signature="e#1363#1364#0" expanded="true" />
-            <element signature="e#1431#1432#0" expanded="true" />
-            <element signature="e#1491#1492#0" expanded="true" />
-            <element signature="e#1538#1539#0" expanded="true" />
-            <element signature="e#1581#1582#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -669,15 +785,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-          <folding>
-            <element signature="e#339#340#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#469#470#0" expanded="true" />
-            <element signature="e#509#510#0" expanded="true" />
-            <element signature="e#541#542#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -699,28 +806,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="739">
           <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-          <folding>
-            <element signature="e#475#476#0" expanded="true" />
-            <element signature="e#501#502#0" expanded="true" />
-            <element signature="e#539#540#0" expanded="true" />
-            <element signature="e#569#570#0" expanded="true" />
-            <element signature="e#606#607#0" expanded="true" />
-            <element signature="e#638#639#0" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
-            <element signature="e#731#732#0" expanded="true" />
-            <element signature="e#769#770#0" expanded="true" />
-            <element signature="e#803#804#0" expanded="true" />
-            <element signature="e#857#858#0" expanded="true" />
-            <element signature="e#903#904#0" expanded="true" />
-            <element signature="e#935#936#0" expanded="true" />
-            <element signature="e#963#964#0" expanded="true" />
-            <element signature="e#1005#1006#0" expanded="true" />
-            <element signature="e#1039#1040#0" expanded="true" />
-            <element signature="e#1085#1086#0" expanded="true" />
-            <element signature="e#1114#1115#0" expanded="true" />
-            <element signature="e#1171#1172#0" expanded="true" />
-            <element signature="e#1207#1208#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -728,13 +813,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-708">
           <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1463#1464#0" expanded="true" />
-            <element signature="e#1487#1488#0" expanded="true" />
-            <element signature="e#1386#1387#0" expanded="true" />
-            <element signature="e#1410#1411#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -742,20 +820,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
           <caret line="43" column="51" selection-start-line="43" selection-start-column="51" selection-end-line="43" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/factory.method.general/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="35" column="21" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="35" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/factory.method.right/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -770,23 +834,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="617">
           <caret line="25" column="63" selection-start-line="25" selection-start-column="63" selection-end-line="25" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/factory.method.right/src/main/java/com/yxd/store/impl/GoodsCommodityService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="767">
+        <state relative-caret-position="875">
           <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1485#1486#0" expanded="true" />
-            <element signature="e#1512#1513#0" expanded="true" />
-            <element signature="e#1567#1568#0" expanded="true" />
-            <element signature="e#1603#1604#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -794,9 +848,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -809,20 +860,277 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/factory.method.right/src/main/java/com/yxd/store/impl/CardCommodityService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="24" column="57" lean-forward="true" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#835#836#0" expanded="true" />
-            <element signature="e#871#872#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="542">
+          <caret line="24" column="57" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/factory.method.right/src/test/java/com/yxd/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        <state relative-caret-position="143">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abstract.factory.common/src/main/java/com/yxd/cuisine.java" />
+    <entry file="file://$PROJECT_DIR$/abstract.factory.common/src/main/java/com/yxd/master/IIR.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abstract.factory.common/src/main/java/com/yxd/CacheService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/factory.method.right/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="31" column="8" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="35" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abstract.factory.general/src/main/java/com/yxd/CacheServiceGeneral.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abstract.factory.common/src/main/java/com/yxd/master/EGM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abstract.factory.common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1287">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abstract.factory.general/src/main/java/com/yxd/cuisine/impl/CacheServiceGeneralImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abstract.factory.common/src/test/java/com/yxd/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abstract.factory.general/src/test/java/com/yxd/cuisine/impl/CacheServiceGeneralImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/factory.method.general/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="32" selection-start-line="32" selection-end-line="35" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abstract.factory.general/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="35" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abstract.factory.right/src/main/java/com/yxd/factory/impl/IIRCacheAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="642">
+          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
+            <element signature="e#708#709#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="192" column="18" selection-start-line="192" selection-start-column="18" selection-end-line="192" selection-end-column="18" />
+          <folding>
+            <element signature="e#6222#6223#0" expanded="true" />
+            <element signature="e#6249#6250#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="1780" column="18" selection-start-line="1780" selection-start-column="18" selection-end-line="1780" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/reflect/InvocationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abstract.factory.right/src/main/java/com/yxd/CacheServiceRight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abstract.factory.right/src/main/java/com/yxd/factory/impl/EGMCacheAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abstract.factory.right/src/main/java/com/yxd/factory/ICacheAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abstract.factory.common/src/main/java/com/yxd/RedisUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abstract.factory.right/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abstract.factory.common/src/main/java/com/yxd/cuisine/impl/CacheServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abstract.factory.right/src/main/java/com/yxd/factory/JDKInvocationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abstract.factory.right/src/main/java/com/yxd/util/ClassLoaderUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="51" column="29" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abstract.factory.right/src/test/java/com/yxd/impl/CacheServiceRightImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abstract.factory.right/src/main/java/com/yxd/factory/JDKProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abstract.factory.right/src/main/java/com/yxd/impl/CacheServiceRightImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
+            <element signature="e#855#856#0" expanded="true" />
+            <element signature="e#886#887#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abstract.factory.right/src/main/java/com/yxd/CglibProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abstract.factory.right/src/main/java/com/yxd/factory/CglibMethodInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="24" column="124" selection-start-line="24" selection-start-column="124" selection-end-line="24" selection-end-column="124" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -878,7 +1186,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>designpattern</last-edited>
+          <last-edited>factorymethodright</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

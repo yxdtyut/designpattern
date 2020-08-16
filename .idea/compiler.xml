@@ -6,6 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="abstractfactorycommon" />
+        <module name="abstractfactorygeneral" />
+        <module name="abstractfactoryright" />
         <module name="factorymethodcommon" />
         <module name="factorymethodgeneral" />
         <module name="factorymethodright" />
