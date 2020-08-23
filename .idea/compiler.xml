@@ -11,10 +11,13 @@
         <module name="abstractfactoryright" />
         <module name="buildercommon" />
         <module name="buildergeneral" />
-        <module name="duilderright" />
+        <module name="builderright" />
         <module name="factorymethodcommon" />
         <module name="factorymethodgeneral" />
         <module name="factorymethodright" />
+        <module name="prototypecommon" />
+        <module name="prototypegeneral" />
+        <module name="prototyperight" />
       </profile>
     </annotationProcessing>
   </component>

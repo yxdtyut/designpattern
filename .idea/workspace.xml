@@ -2,24 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97c0a0f0-3929-4b68-8658-7a1d6854125b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/builder.common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/builder.common/src/main/java/com/yxd/Material.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/builder.common/src/main/java/com/yxd/emulsion/BiMeite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/builder.common/src/main/java/com/yxd/emulsion/DashiQi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/builder.common/src/main/java/com/yxd/floor/Oumiga.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/builder.common/src/main/java/com/yxd/floor/ShengXiang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/builder.common/src/main/java/com/yxd/suspended/OneLevelTop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/builder.common/src/main/java/com/yxd/suspended/TwoLevelTop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/builder.common/src/main/java/com/yxd/waterelectrictiry/ERA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/builder.common/src/main/java/com/yxd/waterelectrictiry/Lesso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/builder.general/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/builder.general/src/main/java/com/yxd/OfferController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/duilder.right/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/duilder.right/src/main/java/com/yxd/Builder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/duilder.right/src/main/java/com/yxd/Offer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prototype.common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prototype.common/src/main/java/com/yxd/AnswerQuestion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prototype.common/src/main/java/com/yxd/ChoiceQuestion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prototype.general/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prototype.general/src/main/java/com/yxd/QuestionBankController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prototype.right/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prototype.right/src/main/java/com/yxd/Paper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prototype.right/src/main/java/com/yxd/PaperUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prototype.right/src/main/java/com/yxd/QuestionBankController2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prototype.right/src/main/java/com/yxd/Topic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prototype.right/src/main/java/com/yxd/TopicUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -34,6 +29,9 @@
     <ignored path="$PROJECT_DIR$/builder.common/target/" />
     <ignored path="$PROJECT_DIR$/builder.general/target/" />
     <ignored path="$PROJECT_DIR$/duilder.right/target/" />
+    <ignored path="$PROJECT_DIR$/prototype.common/target/" />
+    <ignored path="$PROJECT_DIR$/prototype.general/target/" />
+    <ignored path="$PROJECT_DIR$/prototype.right/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,37 +39,123 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Offer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/duilder.right/src/main/java/com/yxd/Offer.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/prototype.right/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="54" column="29" lean-forward="true" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
+            <state relative-caret-position="350">
+              <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Paper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/prototype.right/src/main/java/com/yxd/Paper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="314">
+              <caret line="46" column="99" selection-start-line="46" selection-start-column="99" selection-end-line="46" selection-end-column="99" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#240#256#0" expanded="true" />
+                <element signature="e#512#513#0" expanded="true" />
+                <element signature="e#554#555#0" expanded="true" />
+                <element signature="e#598#599#0" expanded="true" />
+                <element signature="e#634#635#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Builder.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/duilder.right/src/main/java/com/yxd/Builder.java">
+      <file leaf-file-name="AppTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/prototype.right/src/test/java/com/yxd/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+            <state relative-caret-position="400">
+              <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuestionBankController2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/prototype.right/src/main/java/com/yxd/QuestionBankController2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="991">
+              <caret line="57" selection-start-line="57" selection-end-line="57" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#255#271#0" expanded="true" />
+                <element signature="e#505#521#0" expanded="true" />
+                <element signature="e#777#793#0" expanded="true" />
+                <element signature="e#1023#1039#0" expanded="true" />
+                <element signature="e#1221#1237#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OfferController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/builder.general/src/main/java/com/yxd/OfferController.java">
+      <file leaf-file-name="Topic.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/prototype.right/src/main/java/com/yxd/Topic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="36" column="42" lean-forward="true" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="42" />
+            <state relative-caret-position="450">
+              <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+              <folding>
+                <element signature="e#373#374#0" expanded="true" />
+                <element signature="e#424#425#0" expanded="true" />
+                <element signature="e#454#455#0" expanded="true" />
+                <element signature="e#484#485#0" expanded="true" />
+                <element signature="e#510#511#0" expanded="true" />
+                <element signature="e#548#549#0" expanded="true" />
+                <element signature="e#578#579#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TopicUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/prototype.right/src/main/java/com/yxd/TopicUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Collections.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Collections.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="420" column="23" selection-start-line="420" selection-start-column="23" selection-end-line="420" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PaperUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/prototype.right/src/main/java/com/yxd/PaperUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuestionBankController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/prototype.general/src/main/java/com/yxd/QuestionBankController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="814">
+              <caret line="82" column="33" selection-start-line="59" selection-start-column="8" selection-end-line="82" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,6 +170,7 @@
       <list>
         <option value="JUnit4 Test Class" />
         <option value="Interface" />
+        <option value="Arquillian JUnit Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -96,21 +181,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/factory.method.general/src/main/java/com/yxd/entity/PriceController.java" />
-        <option value="$PROJECT_DIR$/factory.method.general/src/test/java/com/yxd/AppTest.java" />
-        <option value="$PROJECT_DIR$/factory.method.right/pom.xml" />
-        <option value="$PROJECT_DIR$/factory.method.right/src/main/java/com/yxd/store/ICommodity.java" />
-        <option value="$PROJECT_DIR$/factory.method.right/src/main/java/com/yxd/store/impl/CouponCommodityService.java" />
-        <option value="$PROJECT_DIR$/factory.method.right/src/main/java/com/yxd/store/impl/GoodsCommodityService.java" />
-        <option value="$PROJECT_DIR$/factory.method.right/src/main/java/com/yxd/StoreFactory.java" />
-        <option value="$PROJECT_DIR$/factory.method.right/src/test/java/com/yxd/AppTest.java" />
-        <option value="$PROJECT_DIR$/factory.method.right/src/main/java/com/yxd/store/impl/CardCommodityService.java" />
-        <option value="$PROJECT_DIR$/abstract.factory.common/pom.xml" />
-        <option value="$PROJECT_DIR$/abstract.factory.common/src/main/java/com/yxd/RedisUtil.java" />
-        <option value="$PROJECT_DIR$/abstract.factory.common/src/main/java/com/yxd/CacheService.java" />
-        <option value="$PROJECT_DIR$/abstract.factory.common/src/main/java/com/yxd/master/EGM.java" />
-        <option value="$PROJECT_DIR$/abstract.factory.common/src/main/java/com/yxd/master/IIR.java" />
-        <option value="$PROJECT_DIR$/abstract.factory.common/src/main/java/com/yxd/cuisine/impl/CacheServiceImpl.java" />
         <option value="$PROJECT_DIR$/abstract.factory.general/pom.xml" />
         <option value="$PROJECT_DIR$/abstract.factory.general/src/main/java/com/yxd/CacheService.java" />
         <option value="$PROJECT_DIR$/abstract.factory.general/src/main/java/com/yxd/CacheServiceGeneral.java" />
@@ -145,8 +215,23 @@
         <option value="$PROJECT_DIR$/builder.general/src/main/java/com/yxd/OfferController.java" />
         <option value="$PROJECT_DIR$/builder.general/src/test/java/com/yxd/AppTest.java" />
         <option value="$PROJECT_DIR$/duilder.right/src/main/java/com/yxd/Offer.java" />
-        <option value="$PROJECT_DIR$/duilder.right/pom.xml" />
         <option value="$PROJECT_DIR$/duilder.right/src/main/java/com/yxd/Builder.java" />
+        <option value="$PROJECT_DIR$/duilder.right/src/test/java/com/yxd/BuilderTest.java" />
+        <option value="$PROJECT_DIR$/duilder.right/pom.xml" />
+        <option value="$PROJECT_DIR$/prototype.common/pom.xml" />
+        <option value="$PROJECT_DIR$/prototype.common/src/main/java/com/yxd/ChoiceQuestion.java" />
+        <option value="$PROJECT_DIR$/prototype.common/src/main/java/com/yxd/AnswerQuestion.java" />
+        <option value="$PROJECT_DIR$/prototype.general/pom.xml" />
+        <option value="$PROJECT_DIR$/prototype.general/src/main/java/com/yxd/QuestionBankController.java" />
+        <option value="$PROJECT_DIR$/prototype.general/src/test/java/com/yxd/AppTest.java" />
+        <option value="$PROJECT_DIR$/prototype.right/src/main/java/com/yxd/QuestionFactory.java" />
+        <option value="$PROJECT_DIR$/prototype.right/src/main/java/com/yxd/PaperUtil.java" />
+        <option value="$PROJECT_DIR$/prototype.right/pom.xml" />
+        <option value="$PROJECT_DIR$/prototype.right/src/main/java/com/yxd/Topic.java" />
+        <option value="$PROJECT_DIR$/prototype.right/src/test/java/com/yxd/AppTest.java" />
+        <option value="$PROJECT_DIR$/prototype.right/src/main/java/com/yxd/QuestionBankController2.java" />
+        <option value="$PROJECT_DIR$/prototype.right/src/main/java/com/yxd/TopicUtil.java" />
+        <option value="$PROJECT_DIR$/prototype.right/src/main/java/com/yxd/Paper.java" />
       </list>
     </option>
   </component>
@@ -172,17 +257,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="designpattern" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="designpattern" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -215,60 +290,25 @@
             <path>
               <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="builder.common" type="462c0819:PsiDirectoryNode" />
+              <item name="prototype.general" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="builder.common" type="462c0819:PsiDirectoryNode" />
+              <item name="prototype.general" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="builder.common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="builder.common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="builder.common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yxd" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="builder.general" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="builder.general" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="builder.general" type="462c0819:PsiDirectoryNode" />
+              <item name="prototype.general" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="builder.general" type="462c0819:PsiDirectoryNode" />
+              <item name="prototype.general" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -276,7 +316,7 @@
             <path>
               <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="builder.general" type="462c0819:PsiDirectoryNode" />
+              <item name="prototype.general" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -285,25 +325,25 @@
             <path>
               <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="duilder.right" type="462c0819:PsiDirectoryNode" />
+              <item name="prototype.right" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="duilder.right" type="462c0819:PsiDirectoryNode" />
+              <item name="prototype.right" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="duilder.right" type="462c0819:PsiDirectoryNode" />
+              <item name="prototype.right" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="duilder.right" type="462c0819:PsiDirectoryNode" />
+              <item name="prototype.right" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -311,7 +351,7 @@
             <path>
               <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="duilder.right" type="462c0819:PsiDirectoryNode" />
+              <item name="prototype.right" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -320,14 +360,14 @@
             <path>
               <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="duilder.right" type="462c0819:PsiDirectoryNode" />
+              <item name="prototype.right" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="duilder.right" type="462c0819:PsiDirectoryNode" />
+              <item name="prototype.right" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -335,7 +375,11 @@
             <path>
               <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="designpattern" type="462c0819:PsiDirectoryNode" />
+              <item name="prototype.right" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yxd" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -345,6 +389,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/idea_workspace/designpattern/prototype.general/src/main/java/com/yxd/QuestionBankController.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
@@ -361,6 +406,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.yxd" />
       <recent name="com.yxd.impl" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -379,7 +425,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BuilderTest.testRemovation">
+  <component name="RunManager" selected="JUnit.AppTest.test_QuestionBank">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -397,6 +443,29 @@
       <option name="MAIN_CLASS_NAME" value="com.yxd.AppTest" />
       <option name="METHOD_NAME" value="testRemovation" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="AppTest.testQuestionBankController" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="prototypegeneral" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yxd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.yxd" />
+      <option name="MAIN_CLASS_NAME" value="com.yxd.AppTest" />
+      <option name="METHOD_NAME" value="testQuestionBankController" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -429,8 +498,31 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="AppTest.test_QuestionBank" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="prototyperight" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yxd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.yxd" />
+      <option name="MAIN_CLASS_NAME" value="com.yxd.AppTest" />
+      <option name="METHOD_NAME" value="test_QuestionBank" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="BuilderTest.testRemovation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="duilderright" />
+      <module name="builderright" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.yxd.*" />
@@ -442,52 +534,6 @@
       <option name="PACKAGE_NAME" value="com.yxd" />
       <option name="MAIN_CLASS_NAME" value="com.yxd.BuilderTest" />
       <option name="METHOD_NAME" value="testRemovation" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="CacheServiceGeneralImplTest.test_cacheServiceGeneral" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="abstractfactorygeneral" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yxd.cuisine.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.yxd.cuisine.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.yxd.cuisine.impl.CacheServiceGeneralImplTest" />
-      <option name="METHOD_NAME" value="test_cacheServiceGeneral" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="CacheServiceRightImplTest.test_CacheServiceRight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="abstractfactoryright" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yxd.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.yxd.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.yxd.impl.CacheServiceRightImplTest" />
-      <option name="METHOD_NAME" value="test_CacheServiceRight" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -537,19 +583,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.CacheServiceGeneralImplTest.test_cacheServiceGeneral" />
-      <item itemvalue="JUnit.CacheServiceRightImplTest.test_CacheServiceRight" />
       <item itemvalue="JUnit.AppTest.testRemovation" />
       <item itemvalue="JUnit.AppTest" />
       <item itemvalue="JUnit.BuilderTest.testRemovation" />
+      <item itemvalue="JUnit.AppTest.testQuestionBankController" />
+      <item itemvalue="JUnit.AppTest.test_QuestionBank" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AppTest.test_QuestionBank" />
+        <item itemvalue="JUnit.AppTest.testQuestionBankController" />
         <item itemvalue="JUnit.BuilderTest.testRemovation" />
         <item itemvalue="JUnit.AppTest.testRemovation" />
         <item itemvalue="JUnit.AppTest" />
-        <item itemvalue="JUnit.CacheServiceRightImplTest.test_CacheServiceRight" />
-        <item itemvalue="JUnit.CacheServiceGeneralImplTest.test_cacheServiceGeneral" />
       </list>
     </recent_temporary>
   </component>
@@ -567,26 +613,26 @@
       <workItem from="1597068574966" duration="4616000" />
       <workItem from="1597157786566" duration="2248000" />
       <workItem from="1597564774942" duration="6545000" />
-      <workItem from="1598168764619" duration="4398000" />
+      <workItem from="1598168764619" duration="9447000" />
     </task>
+    <task id="LOCAL-00001" summary="builder模式">
+      <created>1598173382192</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598173382192</updated>
+    </task>
+    <task id="LOCAL-00002" summary="builder模式">
+      <created>1598173475852</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598173475852</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AppTest - 2020.08.23 at 16h 36m 35s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest - 2020.08.23 at 16h 36m 48s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest - 2020.08.23 at 16h 38m 42s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest - 2020.08.23 at 16h 38m 47s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest_testRemovation - 2020.08.23 at 16h 39m 27s.xml">
-      <configuration name="AppTest.testRemovation" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AppTest_testRemovation - 2020.08.23 at 16h 39m 32s.xml">
       <configuration name="AppTest.testRemovation" configurationId="JUnit" />
     </history-entry>
@@ -602,9 +648,24 @@
     <history-entry file="AppTest_testRemovation - 2020.08.23 at 16h 41m 23s.xml">
       <configuration name="AppTest.testRemovation" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BuilderTest_testRemovation - 2020.08.23 at 17h 01m 59s.xml">
+      <configuration name="BuilderTest.testRemovation" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testQuestionBankController - 2020.08.23 at 19h 49m 44s.xml">
+      <configuration name="AppTest.testQuestionBankController" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_test_QuestionBank - 2020.08.23 at 20h 31m 13s.xml">
+      <configuration name="AppTest.test_QuestionBank" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_test_QuestionBank - 2020.08.23 at 20h 37m 41s.xml">
+      <configuration name="AppTest.test_QuestionBank" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_test_QuestionBank - 2020.08.23 at 20h 39m 55s.xml">
+      <configuration name="AppTest.test_QuestionBank" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18684000" />
+    <option name="totallyTimeSpent" value="23733000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -616,11 +677,11 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32995737" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991276" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3991276" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.3293348" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
@@ -628,9 +689,9 @@
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33151582" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40676117" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26012793" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26012793" />
       <window_info id="Web" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3293348" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -678,10 +739,18 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="builder模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="builder模式" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -698,119 +767,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/factory.method.right/src/main/java/com/yxd/store/impl/GoodsCommodityService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="875">
-          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/factory.method.right/src/main/java/com/yxd/StoreFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/factory.method.common/src/main/java/com/yxd/card/IQiYiCardService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="76" selection-start-line="9" selection-start-column="70" selection-end-line="9" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/factory.method.right/src/main/java/com/yxd/store/impl/CardCommodityService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="24" column="57" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/factory.method.right/src/test/java/com/yxd/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/abstract.factory.common/src/main/java/com/yxd/cuisine.java" />
-    <entry file="file://$PROJECT_DIR$/abstract.factory.common/src/main/java/com/yxd/master/IIR.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/abstract.factory.common/src/main/java/com/yxd/CacheService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/factory.method.right/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="31" column="8" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="35" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/abstract.factory.general/src/main/java/com/yxd/CacheServiceGeneral.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/abstract.factory.common/src/main/java/com/yxd/master/EGM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/abstract.factory.common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1287">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/abstract.factory.general/src/main/java/com/yxd/cuisine/impl/CacheServiceGeneralImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="78" selection-start-line="78" selection-end-line="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/abstract.factory.common/src/test/java/com/yxd/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/abstract.factory.general/src/test/java/com/yxd/cuisine/impl/CacheServiceGeneralImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/factory.method.general/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="32" selection-start-line="32" selection-end-line="35" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/reflect/Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="192" column="18" selection-start-line="192" selection-start-column="18" selection-end-line="192" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Class.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -1089,13 +1045,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/builder.general/src/test/java/com/yxd/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="25" column="59" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/duilder.right/src/test/java/com/yxd/Start.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -1103,47 +1052,223 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/duilder.right/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="84" column="17" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/builder.general/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/duilder.right/src/main/java/com/yxd/Offer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="54" column="29" lean-forward="true" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/builder.general/src/main/java/com/yxd/OfferController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="36" column="42" lean-forward="true" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="42" />
+        <state relative-caret-position="-8">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/builder.general/src/test/java/com/yxd/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="27" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/duilder.right/src/main/java/com/yxd/Builder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        <state relative-caret-position="242">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/duilder.right/src/main/java/com/yxd/Offer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="54" column="29" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/duilder.right/src/test/java/com/yxd/BuilderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/builder.general/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/duilder.right/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prototype.common/src/main/java/com/yxd/ChoiceQuestion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding>
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
+            <element signature="e#697#698#0" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+            <element signature="e#763#764#0" expanded="true" />
+            <element signature="e#789#790#0" expanded="true" />
+            <element signature="e#827#828#0" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prototype.common/src/main/java/com/yxd/AnswerQuestion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+          <folding>
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#538#539#0" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/factory.method.general/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="31" selection-start-line="31" selection-end-line="35" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prototype.common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prototype.general/src/test/java/com/yxd/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="21" column="46" lean-forward="true" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prototype.general/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="31" selection-start-line="31" selection-end-line="35" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prototype.general/src/main/java/com/yxd/QuestionBankController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="82" column="33" selection-start-line="59" selection-start-column="8" selection-end-line="82" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/lang/Cloneable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="691">
+          <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prototype.right/src/main/java/com/yxd/PaperUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prototype.right/src/main/java/com/yxd/Topic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+          <folding>
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#578#579#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="420" column="23" selection-start-line="420" selection-start-column="23" selection-end-line="420" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prototype.right/src/main/java/com/yxd/QuestionBankController2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="991">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#255#271#0" expanded="true" />
+            <element signature="e#505#521#0" expanded="true" />
+            <element signature="e#777#793#0" expanded="true" />
+            <element signature="e#1023#1039#0" expanded="true" />
+            <element signature="e#1221#1237#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prototype.right/src/main/java/com/yxd/TopicUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prototype.right/src/main/java/com/yxd/Paper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="46" column="99" selection-start-line="46" selection-start-column="99" selection-end-line="46" selection-end-column="99" />
+          <folding>
+            <element signature="e#240#256#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+            <element signature="e#634#635#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prototype.right/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prototype.right/src/test/java/com/yxd/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -1201,7 +1326,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>factorymethodright</last-edited>
+          <last-edited>prototypecommon</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

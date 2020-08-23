@@ -18,6 +18,9 @@
       <module>builder.common</module>
       <module>builder.general</module>
       <module>duilder.right</module>
+      <module>prototype.common</module>
+    <module>prototype.general</module>
+      <module>prototype.right</module>
   </modules>
 
   <name>designpattern</name>
