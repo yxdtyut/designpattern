@@ -9,9 +9,13 @@
         <module name="abstractfactorycommon" />
         <module name="abstractfactorygeneral" />
         <module name="abstractfactoryright" />
+        <module name="adaptercommon" />
+        <module name="adaptergeneral" />
+        <module name="adapterright" />
         <module name="buildercommon" />
         <module name="buildergeneral" />
         <module name="builderright" />
+        <module name="duilder.right" />
         <module name="factorymethodcommon" />
         <module name="factorymethodgeneral" />
         <module name="factorymethodright" />
@@ -20,5 +24,8 @@
         <module name="prototyperight" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="builderright" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

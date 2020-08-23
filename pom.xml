@@ -17,10 +17,13 @@
       <module>abstract.factory.right</module>
       <module>builder.common</module>
       <module>builder.general</module>
-      <module>duilder.right</module>
+      <module>builder.right</module>
       <module>prototype.common</module>
     <module>prototype.general</module>
       <module>prototype.right</module>
+      <module>adapter.common</module>
+      <module>adapter.general</module>
+      <module>adapter.right</module>
   </modules>
 
   <name>designpattern</name>
