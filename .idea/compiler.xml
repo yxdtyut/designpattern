@@ -9,6 +9,9 @@
         <module name="abstractfactorycommon" />
         <module name="abstractfactorygeneral" />
         <module name="abstractfactoryright" />
+        <module name="buildercommon" />
+        <module name="buildergeneral" />
+        <module name="duilderright" />
         <module name="factorymethodcommon" />
         <module name="factorymethodgeneral" />
         <module name="factorymethodright" />

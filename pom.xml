@@ -15,6 +15,9 @@
       <module>abstract.factory.common</module>
       <module>abstract.factory.general</module>
       <module>abstract.factory.right</module>
+      <module>builder.common</module>
+      <module>builder.general</module>
+      <module>duilder.right</module>
   </modules>
 
   <name>designpattern</name>
