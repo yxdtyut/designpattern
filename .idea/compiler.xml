@@ -12,6 +12,8 @@
         <module name="adaptercommon" />
         <module name="adaptergeneral" />
         <module name="adapterright" />
+        <module name="bridgegeneral" />
+        <module name="bridgeright" />
         <module name="buildercommon" />
         <module name="buildergeneral" />
         <module name="duilder.right" />

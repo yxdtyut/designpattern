@@ -25,6 +25,8 @@
       <module>adapter.general</module>
       <module>adapter.right</module>
       <module>order.right</module>
+      <module>bridge.general</module>
+      <module>bridge.right</module>
   </modules>
 
   <name>designpattern</name>
