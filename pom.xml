@@ -24,6 +24,7 @@
       <module>adapter.common</module>
       <module>adapter.general</module>
       <module>adapter.right</module>
+      <module>order.right</module>
   </modules>
 
   <name>designpattern</name>
